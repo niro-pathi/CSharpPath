@@ -19,16 +19,16 @@ const double candlePrice = 49.99;
 
 double totalPrice = numberOfCandles * candlePrice;
 
-Console.WriteLine(totalPrice);
+Console.WriteLine( "Total price for candles will be $" + totalPrice.ToString());
 
 /*
  * Working with DateTime
+ * Introducing converting between types and implicit typing
  */
 
-DateTime deliveryDate = DateTime.Now;
+var deliveryDate = DateTime.Now;
 deliveryDate = deliveryDate.AddDays(3);
 
-Console.WriteLine("Your order wii be delivered on:");
-Console.WriteLine(deliveryDate);
+Console.WriteLine("Your order will be delivered on:" + deliveryDate.ToLongDateString());
 
 
