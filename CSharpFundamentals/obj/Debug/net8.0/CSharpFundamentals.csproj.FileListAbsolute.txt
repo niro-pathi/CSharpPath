@@ -1,0 +1,14 @@
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\bin\Debug\net8.0\CSharpFundamentals.exe
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\bin\Debug\net8.0\CSharpFundamentals.deps.json
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\bin\Debug\net8.0\CSharpFundamentals.runtimeconfig.json
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\bin\Debug\net8.0\CSharpFundamentals.dll
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\bin\Debug\net8.0\CSharpFundamentals.pdb
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.AssemblyInfoInputs.cache
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.AssemblyInfo.cs
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.csproj.CoreCompileInputs.cache
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.dll
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\refint\CSharpFundamentals.dll
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.pdb
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.genruntimeconfig.cache
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\ref\CSharpFundamentals.dll
