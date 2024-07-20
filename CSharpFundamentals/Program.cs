@@ -7,11 +7,12 @@ Console.WriteLine("Enter the candle type you need:");
 string candleType = Console.ReadLine();
 
 /*
-    Here are some tests around working with valid identifiers in C#
-    We can write here as much as we want, this is all comment
+    Here are some tests around working with valid identifiers & primitive types in C#
+    Working with members of primitive types
+    We can write here as much as we want, this is all comment    
 */
 
-Console.WriteLine("Enter number of candles you need:");
+Console.WriteLine("Enter number of " + candleType.ToUpper() + " candles you need:");
 var numberOfCandles = int.Parse(Console.ReadLine());
 
 const double candlePrice = 49.99;
