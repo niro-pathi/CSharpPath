@@ -4,6 +4,7 @@
    This project covers the following C3 fundamentals
     - Working with boolian types, relational operators and logical operators
     - Making decisions with if statements
+    - Using Switch statement
  */
 
 // Working with boolian types, relational operators 
@@ -43,4 +44,21 @@ else if (orderQty > 18)
 else
 {
     Console.WriteLine("Great, you can continue with your order!");
+}
+
+// Using Switch statement
+Console.WriteLine("Enter the quantity you wanty order : ");
+int qtyOrdered = int.Parse(Console.ReadLine());
+
+switch (qtyOrdered)
+{
+    case < 2:
+        Console.WriteLine("Requested quantity is less than minimum order quantity");
+        break;
+    case > 50:
+        Console.WriteLine("Sorry, quantity is over the maximum order quantity");
+        break;
+      default:
+        Console.WriteLine("Great, you can continue with your order!");
+        break;
 }
