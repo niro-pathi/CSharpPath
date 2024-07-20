@@ -24,3 +24,23 @@ Console.WriteLine("Available Jar stock is greater than 18 AND Package stock is l
 
 bool e = (jar >= 18) || (package <= 65);
 Console.WriteLine("Available Jar stock is greater than 18 OR Package stock is less than 65: " + e);
+
+
+// Making decisions with if statements
+
+Console.WriteLine("Enter the quantity you wanty order : ");
+int orderQty = int.Parse(Console.ReadLine());
+
+if (orderQty < 2)
+{
+    Console.WriteLine("Requested quantity is less than minimum order quantity");  
+}
+else if (orderQty > 18)
+{
+    Console.WriteLine("Not enough stock");
+    Console.WriteLine("Sending an email to the shop");
+}
+else
+{
+    Console.WriteLine("Great, you can continue with your order!");
+}

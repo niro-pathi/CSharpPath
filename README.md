@@ -5,7 +5,7 @@ C# is the most popular language to build .NET applications today. It’s part of
 
 C# 12, is the version used in these projects. However, most concepts that I have used in these projects apply to earlier versions too.
 
-We use Heavenly Scents Aromatherapy online shop (www.heavenlyscentsaromatheraphy.com.au) as our use case.
+We use Heavenly Scents Aromatherapy online shop (https://www.heavenlyscentsaromatherapy.com.au/) as our use case.
 
 
 C# Fundamentals 
