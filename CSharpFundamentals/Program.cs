@@ -21,3 +21,14 @@ double totalPrice = numberOfCandles * candlePrice;
 
 Console.WriteLine(totalPrice);
 
+/*
+ * Working with DateTime
+ */
+
+DateTime deliveryDate = DateTime.Now;
+deliveryDate = deliveryDate.AddDays(3);
+
+Console.WriteLine("Your order wii be delivered on:");
+Console.WriteLine(deliveryDate);
+
+
