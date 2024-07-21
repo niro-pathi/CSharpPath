@@ -3,14 +3,7 @@
  * Working with methods
  *  - Creating and using methods
  *  - Adding Helper class (refactoring and reorganizing the code)
- */
-
-/*
- * Creating and using methods
- *  - creating a method
- *  - adding parameters
- *  - returning a value
- *  - invoking a method
+ *  - Method overloading
  */
 
 using CSharpFundamentals_L03;
@@ -20,5 +13,9 @@ int orderQty = int.Parse(Console.ReadLine());
 double totalPrice = Utilities.CalculatePrice(orderQty);
 string deliveryDate = Utilities.DeliveryDate();
 
-Console.WriteLine($"Your order price is ${totalPrice} and will be delivered on {deliveryDate}");
+Console.WriteLine($"Your order price is ${totalPrice} and will be delivered on {deliveryDate} .");
 
+//method overloading 
+totalPrice = Utilities.CalculatePrice(orderQty,true);
+deliveryDate = Utilities.DeliveryDate(true);
+Console.WriteLine($"Your order price with express delivery is ${totalPrice} and will be delivered on {deliveryDate} .");
