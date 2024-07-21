@@ -33,6 +33,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Finding a correct method (method overloading)
 	- Unerstanding variable scope
 	- Introducing main method
+	- Adding Helper class (refactoring and reorganizing the code)
 
 
 

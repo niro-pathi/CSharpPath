@@ -2,6 +2,7 @@
 /*
  * Working with methods
  *  - Creating and using methods
+ *  - Adding Helper class (refactoring and reorganizing the code)
  */
 
 /*
@@ -12,24 +13,12 @@
  *  - invoking a method
  */
 
-using System.Net.NetworkInformation;
+using CSharpFundamentals_L03;
 
 Console.WriteLine("Enter the quantity you want to order : ");
 int orderQty = int.Parse(Console.ReadLine());
-double totalPrice = CalculatePrice(orderQty);
-string deliveryDate = DeliveryDate();
+double totalPrice = Utilities.CalculatePrice(orderQty);
+string deliveryDate = Utilities.DeliveryDate();
 
 Console.WriteLine($"Your order price is ${totalPrice} and will be delivered on {deliveryDate}");
 
-static double CalculatePrice (int qty)
-{
-    double unitPrice = 49.99;
-
-    return qty * unitPrice;
-}
-
-static string DeliveryDate() 
-{  
-    DateTime deliveryDate = DateTime.Now;
-    return deliveryDate.ToLongDateString(); 
-}
