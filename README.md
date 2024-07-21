@@ -15,17 +15,30 @@ Learn about the fundamental concepts and language constructs of the C# language,
  	- Using Constant Values
   	- Creating strings
    	- Using operators in C#
-    	- Working with Members on Primitive Types
-     	- Working with DateTime
+    - Working with Members on Primitive Types
+    - Working with DateTime
 	- Converting Between Types
 	- Implicit Typing and using var
  
 [CSharpFundamentals L02] Lesson 02 : Decision and Iteration Statements in C#
 	- Working with Boolean Values
 	- Working with relational Operators and logical operators
-    	- Making decisions with if statements
+    - Making decisions with if statements
 	- Using Switch statement
 	- Adding iterations
+
+[CSharpFundamentals L03] Lesson 03 : Using Methods in C#
+	- Understanding methods
+	- Adding a helper file (Refactoring/reordering)
+	- Finding a correct method (method overloading)
+	- Unerstanding variable scope
+	- Introducing main method
+	- Adding Helper class (refactoring and reorganizing the code)
+	- Method overloading
+	- Optional parameters and named arguments
+	- Expression bodied members
+
+
 
 
 
