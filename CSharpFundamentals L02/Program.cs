@@ -5,6 +5,7 @@
     - Working with boolian types, relational operators and logical operators
     - Making decisions with if statements
     - Using Switch statement
+    - Adding iterations
  */
 
 // Working with boolian types, relational operators 
@@ -29,7 +30,7 @@ Console.WriteLine("Available Jar stock is greater than 18 OR Package stock is le
 
 // Making decisions with if statements
 
-Console.WriteLine("Enter the quantity you wanty order : ");
+Console.WriteLine("Enter the quantity you want to order : ");
 int orderQty = int.Parse(Console.ReadLine());
 
 if (orderQty < 2)
@@ -47,7 +48,7 @@ else
 }
 
 // Using Switch statement
-Console.WriteLine("Enter the quantity you wanty order : ");
+Console.WriteLine("Enter the quantity you want to order : ");
 int qtyOrdered = int.Parse(Console.ReadLine());
 
 switch (qtyOrdered)
@@ -61,4 +62,69 @@ switch (qtyOrdered)
       default:
         Console.WriteLine("Great, you can continue with your order!");
         break;
+}
+
+// Adding iterations
+// Using while loop
+
+Console.WriteLine("Enter the quantity you want to order : ");
+int orderedQty = int.Parse(Console.ReadLine());
+
+while (orderedQty < 2 || orderedQty > 50)
+{
+    switch (orderedQty)
+    {
+        case < 2:
+            Console.WriteLine("Requested quantity is less than minimum order quantity");
+            break;
+        case > 50:
+            Console.WriteLine("Sorry, quantity is over the maximum order quantity");
+            break;
+        default:
+            break;
+    }
+    Console.WriteLine("Please enter the correct quantity you want to order : ");
+    orderedQty = int.Parse(Console.ReadLine());
+}
+
+Console.WriteLine("Great, you can continue with your order!");
+
+// Using Do While loop
+
+orderedQty = 0;
+
+do
+{
+    Console.WriteLine("Please enter the correct quantity you want to order : ");
+    orderedQty = int.Parse(Console.ReadLine());
+
+    switch (orderedQty)
+    {
+        case < 2:
+            Console.WriteLine("Requested quantity is less than minimum order quantity, enter correct value");
+            break;
+        case > 50:
+            Console.WriteLine("Sorry, quantity is over the maximum order quantity, enter correct value");
+            break;
+        default:
+            Console.WriteLine("Great, you can continue with your order!");
+            break;
+    }
+
+} while (orderedQty < 2 || orderedQty > 50);
+
+Console.WriteLine("Great, you have ordered " + orderedQty + " candles.");
+
+int max = 10;
+
+// for loop
+for (int i = 0; i < max; i++)
+{
+    if (i == 15)
+    {
+        Console.WriteLine("Candle code ! " + i + " was found!");
+        continue;
+        //break;
+    }
+    Console.WriteLine(i);
 }

@@ -24,6 +24,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Working with relational Operators and logical operators
     - Making decisions with if statements
 	- Using Switch statement
+	- Adding iterations
 
 
 
