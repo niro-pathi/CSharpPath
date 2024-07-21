@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpFundamentals L02")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e43750bc333841527ec49f1cf0ae5ba456652d86")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6dadb25adf6f5e318f2b3f4402894949e0106a9")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpFundamentals L02")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpFundamentals L02")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
