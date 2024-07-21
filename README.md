@@ -7,22 +7,23 @@ C# 12, is the version used in these projects. However, most concepts that I have
 
 We use Heavenly Scents Aromatherapy online shop (https://www.heavenlyscentsaromatherapy.com.au/) as our use case.
 
-
-C# Fundamentals 
+C# Fundamentals
 Learn about the fundamental concepts and language constructs of the C# language, including object-orientation (OO).
+
 [CSharpFundamentals L01] Lesson 01 : C# syntax
 	- Working with builting types
-	- Using Constant Values
-	- Creating strings
-	- Using operators in C#
-	- Working with Members on Primitive Types
-	- Working with DateTime
+ 	- Using Constant Values
+  	- Creating strings
+   	- Using operators in C#
+    	- Working with Members on Primitive Types
+     	- Working with DateTime
 	- Converting Between Types
 	- Implicit Typing and using var
+ 
 [CSharpFundamentals L02] Lesson 02 : Decision and Iteration Statements in C#
 	- Working with Boolean Values
 	- Working with relational Operators and logical operators
-    - Making decisions with if statements
+    	- Making decisions with if statements
 	- Using Switch statement
 	- Adding iterations
 
