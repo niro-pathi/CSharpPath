@@ -12,3 +12,4 @@ C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\refint\CSh
 C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.pdb
 C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.genruntimeconfig.cache
 C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\ref\CSharpFundamentals.dll
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals.sourcelink.json
