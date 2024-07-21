@@ -15,6 +15,11 @@ namespace CSharpFundamentals_L03
             return qty * unitPrice;
         }
 
+        public static double CalculatePriceWithOptional(int qty, double unitPrice=49.99)
+        {
+             return qty * unitPrice;
+        }
+
 
         public static double CalculatePrice(int qty, bool expressDelivery)
         {
@@ -29,6 +34,9 @@ namespace CSharpFundamentals_L03
             DateTime deliveryDate = DateTime.Now.AddDays(5);
             return deliveryDate.ToLongDateString();
         }
+
+        // Method with expression bodied members
+        public static string DeliveryDateExpressionBodied() => (DateTime.Now.AddDays(5)).ToLongDateString();
 
         public static string DeliveryDate(bool expressDelivery)
         {
