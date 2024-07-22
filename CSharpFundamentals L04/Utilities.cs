@@ -22,7 +22,8 @@ namespace CSharpFundamentals_L04
             // String Concatenating
            string fullName = string.Concat(firstName, ", ",lastName);
             // Using string interpolation
-            return $"Hello {fullName}" ;
+            // Using escape characters 
+            return $"Hello {fullName}\nPlease slect our \"Best Selling\" products from our online shop." ;
         }
     }
 }
