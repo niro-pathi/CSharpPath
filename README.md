@@ -38,6 +38,11 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Optional parameters and named arguments
 	- Expression bodied members
 
+[CSharpFundamentals L04] Lesson 04 : Working with Strings
+	- Manipulating strings
+	- Concatenating strings
+	- Using string interpolation
+
 
 
 
