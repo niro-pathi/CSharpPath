@@ -25,5 +25,13 @@ namespace CSharpFundamentals_L04
             // Using escape characters 
             return $"Hello {fullName}\nPlease slect our \"Best Selling\" products from our online shop." ;
         }
+
+        public static bool IsEligibleForFreeShipping(string shippingAddress)
+        {
+
+            return shippingAddress.ToUpper() == "MELBOURNE";
+
+        }
+
     }
 }

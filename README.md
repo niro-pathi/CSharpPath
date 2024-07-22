@@ -43,6 +43,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Concatenating strings
 	- Using string interpolation
 	- Using escape characters
+	- Comparing Strings
 
 
 

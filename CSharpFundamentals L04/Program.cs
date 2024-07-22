@@ -7,7 +7,8 @@
 // Manipulating strings
 // Concatenating strings
 // Using string interpolation
-// using escape characters
+// Using escape characters
+// Comparing strings
 
 
 using CSharpFundamentals_L04;
@@ -22,3 +23,7 @@ Console.WriteLine("Please enter your first name :");
 lastName = Console.ReadLine();
 
 Console.WriteLine(Utilities.WelcomeMessage(firstName, lastName));
+
+Console.WriteLine("Please enter your delivery location :");
+string deliveryLocation = Console.ReadLine();
+Console.WriteLine($"Free shipping for {deliveryLocation}: {Utilities.IsEligibleForFreeShipping(deliveryLocation)}");
