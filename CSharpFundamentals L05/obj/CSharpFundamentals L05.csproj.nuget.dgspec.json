@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Niro\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L05\\CSharpFundamentals L05.csproj": {}
+    "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L05\\CSharpFundamentals L05.csproj": {}
   },
   "projects": {
-    "D:\\Niro\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L05\\CSharpFundamentals L05.csproj": {
+    "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L05\\CSharpFundamentals L05.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Niro\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L05\\CSharpFundamentals L05.csproj",
+        "projectUniqueName": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L05\\CSharpFundamentals L05.csproj",
         "projectName": "CSharpFundamentals L05",
-        "projectPath": "D:\\Niro\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L05\\CSharpFundamentals L05.csproj",
-        "packagesPath": "C:\\Users\\rande\\.nuget\\packages\\",
-        "outputPath": "D:\\Niro\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L05\\obj\\",
+        "projectPath": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L05\\CSharpFundamentals L05.csproj",
+        "packagesPath": "C:\\Users\\niros\\.nuget\\packages\\",
+        "outputPath": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L05\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\niros\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
