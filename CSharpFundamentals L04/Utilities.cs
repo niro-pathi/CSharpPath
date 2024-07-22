@@ -33,5 +33,25 @@ namespace CSharpFundamentals_L04
 
         }
 
+        public static int ValidatePostCode(string shippingPostcode)
+        {
+            // String parsing
+            // int postCode = int.Parse(shippingPostcode);
+
+            //TryParse
+            int postCode;
+
+            if (int.TryParse(shippingPostcode, out postCode))
+            {
+                return postCode;
+            }
+            else
+            {
+                Console.WriteLine("invalid post code");
+                return 0;
+            }
+
+        }
+
     }
 }

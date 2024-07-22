@@ -44,6 +44,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Using string interpolation
 	- Using escape characters
 	- Comparing Strings
+	- Parsing Strings
 
 
 
