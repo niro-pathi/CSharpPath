@@ -53,6 +53,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 
 [CSharpFundamentals L06] Lesson 06 : Understanding value types and referance types
 	- Working with value types and referance types
+	- Passing parameters by value and ref
 	
 
 
