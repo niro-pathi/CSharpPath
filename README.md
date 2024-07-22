@@ -38,6 +38,20 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Optional parameters and named arguments
 	- Expression bodied members
 
+[CSharpFundamentals L04] Lesson 04 : Working with Strings
+	- Manipulating strings
+	- Concatenating strings
+	- Using string interpolation
+	- Using escape characters
+	- Comparing Strings
+	- Parsing Strings
+
+[CSharpFundamentals L05] Lesson 04 : Creating Classes and Objects
+	- Understanding Classes
+	- Using Objects
+	- Working with several objects
+	
+
 
 
 
