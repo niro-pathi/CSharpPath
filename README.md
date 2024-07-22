@@ -55,6 +55,8 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Working with value types and referance types
 	- Passing parameters by value and ref
 	- Strings are referance type
+	- Creating Enumerations
+	- Usig struct
 	
 
 

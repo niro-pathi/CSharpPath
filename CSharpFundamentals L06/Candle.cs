@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpFundamentals_L06;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +11,7 @@ namespace CSharpFundamentals_L05
     {
         public string candleName;
         public string waxType;
-        public string candleSize;
-
+       
         public int candleWeight;
         public int availableStock;
         public int reorderLevel = 10;
@@ -20,22 +20,33 @@ namespace CSharpFundamentals_L05
         public double price;
         public DateTime expiryDate;
 
+        // Using enumerations
+        public CandleSize candleSize;
+
+
         const int reorderQty = 5;
 
-        public Candle(string name, string type, string size) : this(name,type,size,10)
+        public Candle(string name, string type, CandleSize size) : this(name,type,size,10)
         {
      
         }
 
-        public Candle(string name, string type, string size, int stock)
+        public Candle(string name, string type, CandleSize size, int stock)
         {
             candleName = name;
             waxType = type;
             candleSize = size;
             availableStock = stock;
-            reorderLevel = reorderQty;
-            price = 49.99;
+            reorderLevel = reorderQty;           
             usedStock = 0;
+
+            if (candleSize == CandleSize.XL) { price = 49.99; }
+            else if (candleSize == CandleSize.Large) { price = 39.99; }
+            else if (candleSize == CandleSize.Medium) { price = 29.99; }
+            else if (candleSize == CandleSize.Small) { price = 19.99; }
+            else if (candleSize == CandleSize.TeaLight) { price = 4.99; }
+            else { price = 49.99; }
+
         }
 
         public double GetPrice () 
@@ -76,7 +87,7 @@ namespace CSharpFundamentals_L05
        
         public void DisplayProdcut()
         {
-            Console.WriteLine($"Candle : \t{candleName}\nType: \t{waxType}\nAvailable Qty: \t{availableStock}");
+            Console.WriteLine($"Candle : \t{candleName}\nType: \t{waxType}\nSize :\t{candleSize}\nPrice :\t{price}\nAvailable Qty: \t{availableStock}");
         }
 
         

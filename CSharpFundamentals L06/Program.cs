@@ -5,11 +5,14 @@
  * Using out
  * Strings are referance type	
  * Using String builder
+ * Using enumerations
+ * Usig struct
  */
 
 // Value type
 
 using CSharpFundamentals_L05;
+using CSharpFundamentals_L06;
 using Microsoft.VisualBasic;
 using System.Text;
 
@@ -22,7 +25,8 @@ aCopy = 200;
 Console.WriteLine($"Value a : {a} value aCopy : {aCopy}");
 
 // Referance type
-Candle sandalwood = new Candle("Sandalwood", "Soy Wax", "XL");
+// Using enumerations
+Candle sandalwood = new Candle("Sandalwood", "Soy Wax", CandleSize.XL);
 
 
 Candle lotus = sandalwood;
@@ -66,3 +70,18 @@ review.AppendLine(Console.ReadLine());
 string finalReview = review.ToString();
 
 Console.WriteLine($"Product Review {finalReview}");
+
+// Using enumerations
+Candle vanillaCaramel = new Candle("Vanilla Caramel", "Soy Wax", CandleSize.Medium);
+vanillaCaramel.DisplayProdcut();
+Console.WriteLine();
+Candle roseVictorian = new Candle("Rose Victorian", "Soy Wax", CandleSize.TeaLight);
+roseVictorian.DisplayProdcut();
+
+Console.WriteLine();
+
+// Using struct
+ProductReview productReview;
+productReview.review = "Great product";
+productReview.numberOfStars = 4;
+productReview.DisplayRating();
