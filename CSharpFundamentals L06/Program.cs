@@ -2,6 +2,7 @@
 /*
  * Working with value type and referance type
  * Passing parameters by value and ref
+ * Using out
  */
 
 // Value type
@@ -31,5 +32,9 @@ double discountedPrice = 0;
 int purchasedQty = 5;
 
 Console.WriteLine($"Full price ${lotus.GetPrice(purchasedQty, ref discountedPrice)} Discounted price ${discountedPrice}");
+
+//Using Out
+double finalPrice;
+Console.WriteLine($"Full price ${lotus.GetAllPrices(purchasedQty, out finalPrice)} Discounted price ${finalPrice}");
 
 

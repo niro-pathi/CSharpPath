@@ -55,6 +55,15 @@ namespace CSharpFundamentals_L05
             return purchasedQty * price;
         }
 
+        //Using out
+        public double GetAllPrices(int purchasedQty, out double discountedPrice)
+        {
+            discountedPrice = 0;
+            discountedPrice = (purchasedQty * price) * 1.1;
+            return purchasedQty * price;
+        }
+
+
         public double SellProduct(int purchasedQty)
         {
             usedStock += purchasedQty;
