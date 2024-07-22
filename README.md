@@ -42,6 +42,15 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Manipulating strings
 	- Concatenating strings
 	- Using string interpolation
+	- Using escape characters
+	- Comparing Strings
+	- Parsing Strings
+
+[CSharpFundamentals L05] Lesson 04 : Creating Classes and Objects
+	- Understanding Classes
+	- Using Objects
+	- Working with several objects
+	
 
 
 

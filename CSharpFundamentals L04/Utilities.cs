@@ -22,7 +22,36 @@ namespace CSharpFundamentals_L04
             // String Concatenating
            string fullName = string.Concat(firstName, ", ",lastName);
             // Using string interpolation
-            return $"Hello {fullName}" ;
+            // Using escape characters 
+            return $"Hello {fullName}\nPlease slect our \"Best Selling\" products from our online shop." ;
         }
+
+        public static bool IsEligibleForFreeShipping(string shippingAddress)
+        {
+
+            return shippingAddress.ToUpper() == "MELBOURNE";
+
+        }
+
+        public static int ValidatePostCode(string shippingPostcode)
+        {
+            // String parsing
+            // int postCode = int.Parse(shippingPostcode);
+
+            //TryParse
+            int postCode;
+
+            if (int.TryParse(shippingPostcode, out postCode))
+            {
+                return postCode;
+            }
+            else
+            {
+                Console.WriteLine("invalid post code");
+                return 0;
+            }
+
+        }
+
     }
 }

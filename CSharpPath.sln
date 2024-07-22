@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundamentals L02", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundamentals L03", "CSharpFundamentals L03\CSharpFundamentals L03.csproj", "{D9D147F8-50D3-4475-B5B8-946100BBA71D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFundamentals L04", "CSharpFundamentals L04\CSharpFundamentals L04.csproj", "{1E1CDD81-69AD-468A-9227-208955A2FE69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundamentals L04", "CSharpFundamentals L04\CSharpFundamentals L04.csproj", "{1E1CDD81-69AD-468A-9227-208955A2FE69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFundamentals L05", "CSharpFundamentals L05\CSharpFundamentals L05.csproj", "{0DE8A31B-0EA4-40AA-93E6-ACE3E464932C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1E1CDD81-69AD-468A-9227-208955A2FE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E1CDD81-69AD-468A-9227-208955A2FE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E1CDD81-69AD-468A-9227-208955A2FE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE8A31B-0EA4-40AA-93E6-ACE3E464932C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE8A31B-0EA4-40AA-93E6-ACE3E464932C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE8A31B-0EA4-40AA-93E6-ACE3E464932C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE8A31B-0EA4-40AA-93E6-ACE3E464932C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
