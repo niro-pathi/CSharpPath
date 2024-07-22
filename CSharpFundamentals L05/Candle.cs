@@ -60,7 +60,7 @@ namespace CSharpFundamentals_L05
 
         public void DisplayProdcut()
         {
-            Console.WriteLine($"Candle : \t{candleName}\nUnit Price: \t{price}\nAvailable Qty: \t{availableStock}");
+            Console.WriteLine($"Candle : \t{candleName}\nType: \t{waxType}\nAvailable Qty: \t{availableStock}");
         }
 
         
