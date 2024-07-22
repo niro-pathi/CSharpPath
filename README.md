@@ -46,10 +46,13 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Comparing Strings
 	- Parsing Strings
 
-[CSharpFundamentals L05] Lesson 04 : Creating Classes and Objects
+[CSharpFundamentals L05] Lesson 05 : Creating Classes and Objects
 	- Understanding Classes
 	- Using Objects
 	- Working with several objects
+
+[CSharpFundamentals L06] Lesson 06 : Understanding value types and referance types
+	- Working with value types and referance types
 	
 
 

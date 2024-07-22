@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpFundamentals L04")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8feeb2b4e85a5afe109db914a1da2a36c0174db0")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d4c1ef6903e07d6b065d892f97283cd36d35508")]
->>>>>>> 2ce7a012fffed49c6250a8f133ff6de0a65ad23b
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22962a97066d0e8dc411267f7eedab3ae0f20517")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpFundamentals L04")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpFundamentals L04")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
