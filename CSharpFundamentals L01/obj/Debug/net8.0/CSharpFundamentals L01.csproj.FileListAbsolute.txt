@@ -13,3 +13,18 @@ C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\refint\CSh
 C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals L01.pdb
 C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\CSharpFundamentals L01.genruntimeconfig.cache
 C:\.Net Projects\repos\CSharpPath\CSharpFundamentals\obj\Debug\net8.0\ref\CSharpFundamentals L01.dll
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\bin\Debug\net8.0\CSharpFundamentals L01.exe
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\bin\Debug\net8.0\CSharpFundamentals L01.deps.json
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\bin\Debug\net8.0\CSharpFundamentals L01.runtimeconfig.json
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\bin\Debug\net8.0\CSharpFundamentals L01.dll
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\bin\Debug\net8.0\CSharpFundamentals L01.pdb
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\obj\Debug\net8.0\CSharpFundamentals L01.GeneratedMSBuildEditorConfig.editorconfig
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\obj\Debug\net8.0\CSharpFundamentals L01.AssemblyInfoInputs.cache
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\obj\Debug\net8.0\CSharpFundamentals L01.AssemblyInfo.cs
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\obj\Debug\net8.0\CSharpFundamentals L01.csproj.CoreCompileInputs.cache
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\obj\Debug\net8.0\CSharpFundamentals L01.sourcelink.json
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\obj\Debug\net8.0\CSharpFundamentals L01.dll
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\obj\Debug\net8.0\refint\CSharpFundamentals L01.dll
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\obj\Debug\net8.0\CSharpFundamentals L01.pdb
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\obj\Debug\net8.0\CSharpFundamentals L01.genruntimeconfig.cache
+C:\.Net Projects\repos\CSharpPath\CSharpFundamentals L01\obj\Debug\net8.0\ref\CSharpFundamentals L01.dll

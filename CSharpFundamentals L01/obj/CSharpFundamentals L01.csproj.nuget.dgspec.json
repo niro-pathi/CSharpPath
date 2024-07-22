@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals\\CSharpFundamentals L01.csproj": {}
+    "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L01\\CSharpFundamentals L01.csproj": {}
   },
   "projects": {
-    "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals\\CSharpFundamentals L01.csproj": {
+    "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L01\\CSharpFundamentals L01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals\\CSharpFundamentals L01.csproj",
+        "projectUniqueName": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L01\\CSharpFundamentals L01.csproj",
         "projectName": "CSharpFundamentals L01",
-        "projectPath": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals\\CSharpFundamentals L01.csproj",
+        "projectPath": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L01\\CSharpFundamentals L01.csproj",
         "packagesPath": "C:\\Users\\niros\\.nuget\\packages\\",
-        "outputPath": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals\\obj\\",
+        "outputPath": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
