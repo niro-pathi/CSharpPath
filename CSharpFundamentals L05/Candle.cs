@@ -20,6 +20,24 @@ namespace CSharpFundamentals_L05
         public double price;
         public DateTime expiryDate;
 
+        const int reorderQty = 5;
+
+        public Candle(string name, string type, string size) : this(name,type,size,10)
+        {
+     
+        }
+
+        public Candle(string name, string type, string size, int stock)
+        {
+            candleName = name;
+            waxType = type;
+            candleSize = size;
+            availableStock = stock;
+            reorderLevel = reorderQty;
+            price = 49.99;
+            usedStock = 0;
+        }
+
         public double GetPrice () 
         { 
             return price; 

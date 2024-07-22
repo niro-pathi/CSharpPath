@@ -48,6 +48,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 
 [CSharpFundamentals L05] Lesson 04 : Creating Classes and Objects
 	- Understanding Classes
+	- Using Objects
 	
 
 
