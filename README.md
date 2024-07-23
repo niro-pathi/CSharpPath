@@ -58,7 +58,8 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Creating Enumerations
 	- Usig struct
 	
-
+[CSharpFundamentals L07] Lesson 07 : More with Classes and custom types
+	- Working with Namespaces
 
 
 
