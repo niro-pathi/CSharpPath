@@ -76,6 +76,7 @@ namespace CSharpFundamentals_L07.Candle
 
 
         public double SellProduct(int purchasedQty)
+
         {
             usedStock += purchasedQty;
             availableStock -= purchasedQty;
