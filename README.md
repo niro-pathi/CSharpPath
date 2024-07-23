@@ -60,6 +60,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	
 [CSharpFundamentals L07] Lesson 07 : More with Classes and custom types
 	- Working with Namespaces
+	- Using static
 
 
 

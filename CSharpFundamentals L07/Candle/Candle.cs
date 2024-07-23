@@ -22,6 +22,7 @@ namespace CSharpFundamentals_L07.Candle
         // Using enumerations
         public CandleSize candleSize;
 
+        public static double gstTax = 1.10;
 
         const int reorderQty = 5;
 
@@ -50,27 +51,27 @@ namespace CSharpFundamentals_L07.Candle
 
         public double GetPrice()
         {
-            return price;
+            return price * gstTax;
         }
 
         public double GetPrice(int purchasedQty)
         {
-            return purchasedQty * price;
+            return (purchasedQty * price) * gstTax;
         }
 
         //Paramter as a ref type
         public double GetPrice(int purchasedQty, ref double discountedPrice)
         {
-            discountedPrice = purchasedQty * price * 0.1;
-            return purchasedQty * price;
+            discountedPrice = ((purchasedQty * price) * gstTax) * 0.1;
+            return (purchasedQty * price) * gstTax;
         }
 
         //Using out
         public double GetAllPrices(int purchasedQty, out double discountedPrice)
         {
             discountedPrice = 0;
-            discountedPrice = purchasedQty * price * 1.1;
-            return purchasedQty * price;
+            discountedPrice = (purchasedQty * price) * gstTax * 1.1;
+            return (purchasedQty * price) * gstTax;
         }
 
 
