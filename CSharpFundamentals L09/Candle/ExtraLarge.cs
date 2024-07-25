@@ -15,6 +15,11 @@ namespace CSharpFundamentals_L09.Candle
             Console.WriteLine("Enjoy our free shipping with this product.");
         }
 
+        public override void CheckDiscount()
+        {
+            Console.WriteLine("All our extra large candles get 20% discount.");
+        }
+
 
     }
 }

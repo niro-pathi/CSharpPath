@@ -87,6 +87,8 @@ namespace CSharpFundamentals_L09.Candle
             WaxType = candleType;
             AvailableStock = availableStock;
             ReorderLevel = reorderQty;
+            CandleWeight = 100;
+            Price = 25;
             UsedStock = 0;
         }
 
@@ -95,6 +97,8 @@ namespace CSharpFundamentals_L09.Candle
             CandleName = firstName;
             WaxType = candleType;
             AvailableStock = availableStock;
+            Price = 25;
+            CandleWeight = 100;
             ReorderLevel = reorderQty;
             UsedStock = 0;
 
@@ -115,7 +119,7 @@ namespace CSharpFundamentals_L09.Candle
         //Paramter as a ref type
         public double GetPrice(int purchasedQty, ref double discountedPrice)
         {
-            discountedPrice = ((purchasedQty * Price) * gstTax) * 0.1;
+            discountedPrice = ((purchasedQty * Price) * gstTax) * 1.1;
             return (purchasedQty * Price) * gstTax;
         }
 
@@ -139,11 +143,16 @@ namespace CSharpFundamentals_L09.Candle
 
         public void DisplayProdcut()
         {
-            Console.WriteLine($"Candle : \t{CandleName}\nType: \t{WaxType}\nWeight :\t{CandleWeight}g\nPrice :\t{Price}\nAvailable Qty: \t{AvailableStock}");
+            Console.WriteLine($"Candle : \t{CandleName}\nType: \t{WaxType}\nWeight :\t{CandleWeight}g\nPrice :\t{GetPrice()}\nAvailable Qty: \t{AvailableStock}");
             ProductReview.DisplayRating();
-           
+
         }
 
-
+        // Allow override by the inheritted classes
+        public virtual void CheckDiscount()
+        {
+            Console.WriteLine("All products get standard 10% discount");
+            
+        }
     }
 }
