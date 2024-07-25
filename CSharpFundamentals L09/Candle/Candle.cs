@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpFundamentals_L09.Candle
 {
-    internal class Candle
+    internal class Candle: ICandle
     {
         private string candleName;
         private string waxType;

@@ -73,6 +73,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Bringing Inheritance
 	- Using inheritance as Is-A Relation and Has-A Composition
 	- Using Polymorphism
+	- Using Interfaces
 
 
 
