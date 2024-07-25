@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L03\\CSharpFundamentals L03.csproj",
-      "projectName": "CSharpFundamentals L03",
-      "projectPath": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L03\\CSharpFundamentals L03.csproj",
+      "projectUniqueName": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L03\\CSharpFundamentals_L03.csproj",
+      "projectName": "CSharpFundamentals_L03",
+      "projectPath": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L03\\CSharpFundamentals_L03.csproj",
       "packagesPath": "C:\\Users\\niros\\.nuget\\packages\\",
       "outputPath": "C:\\.Net Projects\\repos\\CSharpPath\\CSharpFundamentals L03\\obj\\",
       "projectStyle": "PackageReference",

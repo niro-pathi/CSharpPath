@@ -7,6 +7,7 @@ namespace CSharpFundamentals_L09.Tests
         [Fact]
         public void SellProducts_CalculateCost_Used_and_Available_Qty()
         {
+           
             // Arrange
             Candle.Candle candle = new("Rose Victorian Scented Soy Wax Candle", "Soy Wax", 10, "Great product", 5);
             int purchasedQty = 5;
