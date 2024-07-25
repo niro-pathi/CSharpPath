@@ -68,6 +68,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Working with collections
 
 [CSharpFundamentals L09] Lesson 07 : OO Fundamentals
+	- Adding Encapsulation
 
 
 
