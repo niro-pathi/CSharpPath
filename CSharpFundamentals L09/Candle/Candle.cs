@@ -19,9 +19,6 @@ namespace CSharpFundamentals_L09.Candle
         private double price;
         private DateTime expiryDate;
 
-        // Using enumerations
-        private CandleSize candleSize;
-
         private static double gstTax = 1.10;
 
         private const int reorderQty = 5;
@@ -38,10 +35,16 @@ namespace CSharpFundamentals_L09.Candle
             set { waxType = value; }
         }
 
+        public int CandleWeight
+        {
+            get { return candleWeight; }
+            protected set { candleWeight = value; }
+        }
+
         public double Price
         {
             get { return price; }
-            private set { price = value; }
+            protected set { price = value; }
         }
 
         public int AvailableStock
@@ -56,39 +59,25 @@ namespace CSharpFundamentals_L09.Candle
             private set { reorderLevel = value; }
         }
 
+
         public int UsedStock
         {
             get { return usedStock; }
             private set { usedStock = value; }
         }
 
-        public CandleSize CandleSize
-        {
-            get { return candleSize; }
-            private set { candleSize = value; }
-        }
-
-        public Candle(string firstName, string candleType, CandleSize candleSize) : this(firstName, candleType, candleSize, 10)
+        public Candle(string firstName, string candleType) : this(firstName, candleType, 10)
         {
 
         }
 
-        public Candle(string firstName, string candleType, CandleSize candleSize, int availableStock)
+        public Candle(string firstName, string candleType, int availableStock)
         {
             CandleName = firstName;
             WaxType = candleType;
-            CandleSize = candleSize;
             AvailableStock = availableStock;
             ReorderLevel = reorderQty;
             UsedStock = 0;
-
-            if (candleSize == CandleSize.XL) { Price = 49.99; }
-            else if (candleSize == CandleSize.Large) { Price = 39.99; }
-            else if (candleSize == CandleSize.Medium) { Price = 29.99; }
-            else if (candleSize == CandleSize.Small) { Price = 19.99; }
-            else if (candleSize == CandleSize.TeaLight) { Price = 4.99; }
-            else { Price = 49.99; }
-
         }
 
         public double GetPrice()
@@ -116,9 +105,7 @@ namespace CSharpFundamentals_L09.Candle
             return (purchasedQty * Price) * gstTax;
         }
 
-
         public double SellProduct(int purchasedQty)
-
         {
             UsedStock += purchasedQty;
             AvailableStock -= purchasedQty;
@@ -130,7 +117,7 @@ namespace CSharpFundamentals_L09.Candle
 
         public void DisplayProdcut()
         {
-            Console.WriteLine($"Candle : \t{CandleName}\nType: \t{WaxType}\nSize :\t{CandleSize}\nPrice :\t{Price}\nAvailable Qty: \t{AvailableStock}");
+            Console.WriteLine($"Candle : \t{CandleName}\nType: \t{WaxType}\nWeight :\t{CandleWeight}g\nPrice :\t{Price}\nAvailable Qty: \t{AvailableStock}");
         }
 
 

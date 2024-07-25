@@ -43,6 +43,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Concatenating strings
 	- Using string interpolation
 	- Using escape characters
+
 	- Comparing Strings
 	- Parsing Strings
 
@@ -62,13 +63,14 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Working with Namespaces
 	- Using static
 
-[CSharpFundamentals L08] Lesson 07 : Using Arrays and Lists
+[CSharpFundamentals L08] Lesson 08 : Using Arrays and Lists
 	- Working with Arrays
 	- Working array of objects
 	- Working with collections
 
-[CSharpFundamentals L09] Lesson 07 : OO Fundamentals
+[CSharpFundamentals L09] Lesson 09 : OO Fundamentals
 	- Adding Encapsulation
+	- Bringing Inheritance
 
 
 
