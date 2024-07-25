@@ -2,6 +2,7 @@
 /*
  * Adding Encapsulation
  * Bringing Inheritance
+ * Using inheritance as Is-A Relation and Has-A Composition
  */
 
 using CSharpFundamentals_L09.Candle;
@@ -21,3 +22,12 @@ TeaLightPack vanillaTeaPack = new TeaLightPack("Vanilla Caramel Scented Soy Wax 
 vanillaTeaPack.AddCandleCaringPack();
 vanillaTeaPack.DisplayProdcut();
 Console.WriteLine("________________________________________");
+
+//Is-A Relation
+TeaLight lotusTeaPack = new TeaLightPack("Lotus Scented Soy Wax Candle", "Soy Wax", 10);
+lotusTeaPack.DisplayProdcut();
+Console.WriteLine("________________________________________");
+
+//Composition Has-A
+Candle roseVictorian = new Candle("Rose Victorian Scented Soy Wax Candle", "Soy Wax", 10,"Great product",5);
+roseVictorian.DisplayProdcut();

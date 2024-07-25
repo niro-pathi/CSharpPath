@@ -71,6 +71,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 [CSharpFundamentals L09] Lesson 09 : OO Fundamentals
 	- Adding Encapsulation
 	- Bringing Inheritance
+	- Using inheritance as Is-A Relation and Has-A Composition
 
 
 

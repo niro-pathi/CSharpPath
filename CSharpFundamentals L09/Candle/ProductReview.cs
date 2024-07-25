@@ -8,8 +8,27 @@ namespace CSharpFundamentals_L09.Candle
 {
     internal struct ProductReview
     {
-        public string review;
-        public int numberOfStars;
+        private string review;
+        private int numberOfStars;
+
+        public ProductReview(string review, int numberOfStars)
+        {
+            Review = review;
+            NumberOfStars = numberOfStars;
+        }
+
+        public string Review 
+        {  
+            get { return review; } 
+            set { review = value; }
+        
+        }
+
+        public int NumberOfStars
+        {
+            get { return numberOfStars; }
+            set { numberOfStars = value; }
+        }
 
         public void DisplayRating()
         {

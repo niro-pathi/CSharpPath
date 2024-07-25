@@ -19,6 +19,8 @@ namespace CSharpFundamentals_L09.Candle
         private double price;
         private DateTime expiryDate;
 
+        private ProductReview productReview;
+
         private static double gstTax = 1.10;
 
         private const int reorderQty = 5;
@@ -66,6 +68,14 @@ namespace CSharpFundamentals_L09.Candle
             private set { usedStock = value; }
         }
 
+        public ProductReview ProductReview
+        {
+            get { return productReview; }
+            set
+            {
+                productReview = value;
+            }
+        }
         public Candle(string firstName, string candleType) : this(firstName, candleType, 10)
         {
 
@@ -79,6 +89,18 @@ namespace CSharpFundamentals_L09.Candle
             ReorderLevel = reorderQty;
             UsedStock = 0;
         }
+
+        public Candle(string firstName, string candleType, int availableStock, string productReview, int numberOfStars)
+        {
+            CandleName = firstName;
+            WaxType = candleType;
+            AvailableStock = availableStock;
+            ReorderLevel = reorderQty;
+            UsedStock = 0;
+
+            ProductReview = new ProductReview(productReview, numberOfStars);
+        }
+
 
         public double GetPrice()
         {
@@ -118,6 +140,8 @@ namespace CSharpFundamentals_L09.Candle
         public void DisplayProdcut()
         {
             Console.WriteLine($"Candle : \t{CandleName}\nType: \t{WaxType}\nWeight :\t{CandleWeight}g\nPrice :\t{Price}\nAvailable Qty: \t{AvailableStock}");
+            ProductReview.DisplayRating();
+           
         }
 
 
