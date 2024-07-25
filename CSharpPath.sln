@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundamentals L06", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundamentals L07", "CSharpFundamentals L07\CSharpFundamentals L07.csproj", "{7902928B-4EB8-4FDE-8BA0-D52DD432D696}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFundamentals L08", "CSharpFundamentals L08\CSharpFundamentals L08.csproj", "{78FE28DA-756E-446F-A23B-F1ABA042A8E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundamentals L08", "CSharpFundamentals L08\CSharpFundamentals L08.csproj", "{78FE28DA-756E-446F-A23B-F1ABA042A8E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFundamentals L09", "CSharpFundamentals L09\CSharpFundamentals L09.csproj", "{79BBA47F-9EFF-462C-815B-BBBE1EA359FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFundamentals L09", "CSharpFundamentals L09\CSharpFundamentals L09.csproj", "{79BBA47F-9EFF-462C-815B-BBBE1EA359FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFundamentals L09.Tests", "CSharpFundamentals L09.Tests\CSharpFundamentals L09.Tests.csproj", "{50A2BE34-3722-46D8-B03E-83B93E9D93D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{79BBA47F-9EFF-462C-815B-BBBE1EA359FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79BBA47F-9EFF-462C-815B-BBBE1EA359FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79BBA47F-9EFF-462C-815B-BBBE1EA359FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A2BE34-3722-46D8-B03E-83B93E9D93D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A2BE34-3722-46D8-B03E-83B93E9D93D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A2BE34-3722-46D8-B03E-83B93E9D93D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A2BE34-3722-46D8-B03E-83B93E9D93D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpFundamentals_L09.Candle
 {
-    internal interface ICandle
+    public interface ICandle
     {
         double GetPrice();
         double GetPrice(int purchasedQty);

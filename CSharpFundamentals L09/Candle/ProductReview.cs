@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpFundamentals_L09.Candle
 {
-    internal struct ProductReview
+    public struct ProductReview
     {
         private string review;
         private int numberOfStars;

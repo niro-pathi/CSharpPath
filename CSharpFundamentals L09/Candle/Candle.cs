@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpFundamentals_L09.Candle
 {
-    internal class Candle: ICandle
+    public class Candle: ICandle
     {
         private string candleName;
         private string waxType;
@@ -138,7 +138,7 @@ namespace CSharpFundamentals_L09.Candle
 
             Console.WriteLine($"{purchasedQty} {CandleName} candles have been sold and current stock is {AvailableStock}");
 
-            return purchasedQty * Price;
+            return (purchasedQty * Price) * gstTax * 1.1; ;
         }
 
         public void DisplayProdcut()

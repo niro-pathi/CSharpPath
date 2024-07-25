@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpFundamentals_L09.Candle
 {
-    internal class ExtraLarge : Candle
+    public class ExtraLarge : Candle
     {
         public ExtraLarge(string firstName, string candleType, int availableStock) : base(firstName, candleType, availableStock)
         {
