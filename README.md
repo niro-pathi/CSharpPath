@@ -65,6 +65,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 [CSharpFundamentals L08] Lesson 07 : Using Arrays and Lists
 	- Working with Arrays
 	- Working array of objects
+	- Working with collections
 
 
 
