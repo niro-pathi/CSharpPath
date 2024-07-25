@@ -75,8 +75,9 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Using Interfaces
 	- Unit Testing added
 
-[CSharpFundamentals L10] Lesson 10 : Working with files.
+[CSharpFundamentals L10] Lesson 10 : Working with files and Handling Exceptions.
 	- Reading from and writting to files
+	- Handling Exceptions
 
 
 

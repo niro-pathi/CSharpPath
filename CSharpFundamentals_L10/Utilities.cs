@@ -140,9 +140,100 @@ namespace CSharpFundamentals_L10
             return "0";
         }
 
+        internal static void LoadCandleByName(List<Products.Candle> candles)
+        {
+            Console.Write("Enter the Candle Name you want to visualize: ");
+            try
+            {
+                int selectedId = int.Parse(Console.ReadLine());
+
+                //let's assume there is an existing candle at this point
+                Products.Candle selectedCandle = candles[selectedId];
+                selectedCandle.DisplayProdcut();
+                
+            }
+            catch (FormatException fex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("That's not the correct format to enter an ID!\n\n");
+                Console.ResetColor();
+            }
+
+        }
+
         internal static void LoadCandles(List<Products.Candle> candles)
         {
-            Console.WriteLine("Functionality under development.");
+
+            string path = $"{directory}{fileName}";
+            try
+            {
+                if (File.Exists(path))
+                {
+                    candles.Clear();
+
+                    //now read the file
+                    string[] candlesAsString = File.ReadAllLines(path);
+                    for (int i = 0; i < candlesAsString.Length; i++)
+                    {
+                        string[] candlesSplits = candlesAsString[i].Split(';');
+                        string candleName = candlesSplits[0].Substring(candlesSplits[0].IndexOf(':') + 1);
+                        string waxType = candlesSplits[1].Substring(candlesSplits[1].IndexOf(':') + 1);
+                        int availableStock = int.Parse(candlesSplits[2].Substring(candlesSplits[2].IndexOf(':') + 1));
+                        DateTime expiryDate = DateTime.Parse(candlesSplits[3].Substring(candlesSplits[3].IndexOf(':') + 1));
+                        string candleType = candlesSplits[4].Substring(candlesSplits[4].IndexOf(':') + 1);
+
+                        Products.Candle candle = null;
+
+                        switch (candleType)
+                        {
+                            case "1":
+                                candle = new ExtraLarge(candleName, waxType, availableStock, expiryDate);
+                                break;
+                            case "2":
+                                candle = new Large(candleName, waxType, availableStock, expiryDate);
+                                break;
+                            case "3":
+                                candle = new Small(candleName, waxType, availableStock, expiryDate);
+                                break;
+                            case "4":
+                                candle = new TeaCandlePack(candleName, waxType, availableStock, expiryDate);
+                                break;
+                            case "5":
+                                candle = new TeaCandle(candleName, waxType, availableStock, expiryDate);
+                                break;
+                        }
+
+                        candles.Add(candle);
+
+                    }
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"Loaded {candles.Count} candales!\n\n");
+                }
+            }
+
+            catch (IndexOutOfRangeException iex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Something went wrong parsing the file, please check the data!");
+                Console.WriteLine(iex.Message);
+            }
+            catch (FileNotFoundException fnfex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("The file couldn't be found!");
+                Console.WriteLine(fnfex.Message);
+                Console.WriteLine(fnfex.StackTrace);
+            }
+            catch (Exception ex)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Something went wrong while loading the file!");
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                Console.ResetColor();
+            }
         }
     }
 }

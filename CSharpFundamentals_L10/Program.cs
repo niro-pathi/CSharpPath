@@ -29,6 +29,7 @@ do
     Console.WriteLine("2: View all Candles");
     Console.WriteLine("3: Save data");
     Console.WriteLine("4: Load data");
+    Console.WriteLine("5: Load Specific Candle");
     Console.WriteLine("9: Quit application");
     Console.Write("Your selection: ");
 
@@ -47,6 +48,9 @@ do
             break;
         case "4":
             Utilities.LoadCandles(candles);
+            break;
+        case "5":
+            Utilities.LoadCandleByName(candles);
             break;
         case "9": break;
         default:
