@@ -67,6 +67,9 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Working array of objects
 	- Working with collections
 
+[CSharpFundamentals L09] Lesson 07 : OO Fundamentals
+
+
 
 
 
