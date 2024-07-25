@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpFundamentals_L09.Candle
+namespace CSharpFundamentals_L10.Candle
 {
     internal interface ICandle
     {
         double GetPrice();
         double GetPrice(int purchasedQty);
-        double GetPrice(int purchasedQty, ref double discountedPrice);
         double GetAllPrices(int purchasedQty, out double discountedPrice);
         double SellProduct(int purchasedQty);
         void DisplayProdcut();
         void CheckDiscount();
+        void AddProductReview();
 
     }
 }

@@ -43,7 +43,6 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Concatenating strings
 	- Using string interpolation
 	- Using escape characters
-
 	- Comparing Strings
 	- Parsing Strings
 
@@ -77,6 +76,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Unit Testing added
 
 [CSharpFundamentals L10] Lesson 10 : Working with files.
+	- Reading from and writting to files
 
 
 
