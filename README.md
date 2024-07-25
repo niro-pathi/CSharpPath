@@ -46,11 +46,41 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Comparing Strings
 	- Parsing Strings
 
-[CSharpFundamentals L05] Lesson 04 : Creating Classes and Objects
+[CSharpFundamentals L05] Lesson 05 : Creating Classes and Objects
 	- Understanding Classes
 	- Using Objects
 	- Working with several objects
+
+[CSharpFundamentals L06] Lesson 06 : Understanding value types and referance types
+	- Working with value types and referance types
+	- Passing parameters by value and ref
+	- Strings are referance type
+	- Creating Enumerations
+	- Usig struct
 	
+[CSharpFundamentals L07] Lesson 07 : More with Classes and custom types
+	- Working with Namespaces
+	- Using static
+
+[CSharpFundamentals L08] Lesson 08 : Using Arrays and Lists
+	- Working with Arrays
+	- Working array of objects
+	- Working with collections
+
+[CSharpFundamentals L09] Lesson 09 : OO Fundamentals
+	- Adding Encapsulation
+	- Bringing Inheritance
+	- Using inheritance as Is-A Relation and Has-A Composition
+	- Using Polymorphism
+	- Using Interfaces
+	- Unit Testing added
+
+[CSharpFundamentals L10] Lesson 10 : Working with files and Handling Exceptions.
+	- Reading from and writting to files
+	- Handling Exceptions
+
+
+
 
 
 

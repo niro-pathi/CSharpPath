@@ -16,12 +16,16 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9238cd552ae49153d80ff3c7f6747b37eeec608e")]
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89b4164f0f0667edd7ea26c5cbd272a85d2bdb7f")]
 >>>>>>> main
 =======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cde79965420c10993bfe6176124a64c2461c83b")]
+>>>>>>> main
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98567d84419cac8bde1f9d65af3e777fda8b39e6")]
 >>>>>>> main
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpFundamentals L02")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpFundamentals L02")]

@@ -142,7 +142,11 @@ namespace CSharpFundamentals_L10
 
         internal static void LoadCandleByName(List<Products.Candle> candles)
         {
+<<<<<<< HEAD
             Console.Write("Enter the Candle Id you want to visualize: ");
+=======
+            Console.Write("Enter the Candle Name you want to visualize: ");
+>>>>>>> main
             try
             {
                 int selectedId = int.Parse(Console.ReadLine());
