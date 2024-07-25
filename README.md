@@ -10,7 +10,7 @@ We use Heavenly Scents Aromatherapy online shop (https://www.heavenlyscentsaroma
 C# Fundamentals
 Learn about the fundamental concepts and language constructs of the C# language, including object-orientation (OO).
 
-[CSharpFundamentals L01] Lesson 01 : C# syntax
+# [CSharpFundamentals L01] Lesson 01 : C# syntax
 	- Working with builting types
  	- Using Constant Values
   	- Creating strings
@@ -20,14 +20,14 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Converting Between Types
 	- Implicit Typing and using var
  
-[CSharpFundamentals L02] Lesson 02 : Decision and Iteration Statements in C#
+# [CSharpFundamentals L02] Lesson 02 : Decision and Iteration Statements in C#
 	- Working with Boolean Values
 	- Working with relational Operators and logical operators
     - Making decisions with if statements
 	- Using Switch statement
 	- Adding iterations
 
-[CSharpFundamentals L03] Lesson 03 : Using Methods in C#
+# [CSharpFundamentals L03] Lesson 03 : Using Methods in C#
 	- Understanding methods
 	- Adding a helper file (Refactoring/reordering)
 	- Finding a correct method (method overloading)
@@ -38,7 +38,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Optional parameters and named arguments
 	- Expression bodied members
 
-[CSharpFundamentals L04] Lesson 04 : Working with Strings
+# CSharpFundamentals L04] Lesson 04 : Working with Strings
 	- Manipulating strings
 	- Concatenating strings
 	- Using string interpolation
@@ -46,28 +46,28 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Comparing Strings
 	- Parsing Strings
 
-[CSharpFundamentals L05] Lesson 05 : Creating Classes and Objects
+# [CSharpFundamentals L05] Lesson 05 : Creating Classes and Objects
 	- Understanding Classes
 	- Using Objects
 	- Working with several objects
 
-[CSharpFundamentals L06] Lesson 06 : Understanding value types and referance types
+# [CSharpFundamentals L06] Lesson 06 : Understanding value types and referance types
 	- Working with value types and referance types
 	- Passing parameters by value and ref
 	- Strings are referance type
 	- Creating Enumerations
 	- Usig struct
 	
-[CSharpFundamentals L07] Lesson 07 : More with Classes and custom types
+# [CSharpFundamentals L07] Lesson 07 : More with Classes and custom types
 	- Working with Namespaces
 	- Using static
 
-[CSharpFundamentals L08] Lesson 08 : Using Arrays and Lists
+# [CSharpFundamentals L08] Lesson 08 : Using Arrays and Lists
 	- Working with Arrays
 	- Working array of objects
 	- Working with collections
 
-[CSharpFundamentals L09] Lesson 09 : OO Fundamentals
+# [CSharpFundamentals L09] Lesson 09 : OO Fundamentals
 	- Adding Encapsulation
 	- Bringing Inheritance
 	- Using inheritance as Is-A Relation and Has-A Composition
@@ -75,7 +75,7 @@ Learn about the fundamental concepts and language constructs of the C# language,
 	- Using Interfaces
 	- Unit Testing added
 
-[CSharpFundamentals L10] Lesson 10 : Working with files and Handling Exceptions.
+# [CSharpFundamentals L10] Lesson 10 : Working with files and Handling Exceptions.
 	- Reading from and writting to files
 	- Handling Exceptions
 
