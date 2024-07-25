@@ -11,7 +11,6 @@
 
 // Value type
 
-using CSharpFundamentals_L05;
 using CSharpFundamentals_L06;
 using Microsoft.VisualBasic;
 using System.Text;

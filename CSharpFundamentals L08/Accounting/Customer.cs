@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpFundamentals_L07.Accounting
+namespace CSharpFundamentals_L08.Accounting
 {
     internal class Customer
     {

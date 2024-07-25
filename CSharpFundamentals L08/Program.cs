@@ -5,7 +5,7 @@
  * Working with collections
  */
 
-using CSharpFundamentals_L07.Candle;
+using CSharpFundamentals_L08.Candle;
 
 string[] customerAddress = new string[4];
 

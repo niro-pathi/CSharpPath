@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpFundamentals_L05
+namespace CSharpFundamentals_L06
 {
     internal class Candle
     {
